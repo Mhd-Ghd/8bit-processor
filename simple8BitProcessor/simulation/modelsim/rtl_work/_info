@@ -1,0 +1,171 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/simulation/modelsim
+vALU
+Z1 !s110 1632337879
+!i10b 1
+!s100 gZ7SI9RfhV6LF;hf7ZFJM0
+IjEk^Zd:Q_AmRHME8@I9WZ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1632337223
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/ALU.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/ALU.v
+Z3 L0 23
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1632337879.000000
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/ALU.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor
+Z8 tCvgOpt 0
+n@a@l@u
+vcontrolUnit
+Z9 !s110 1632337878
+!i10b 1
+!s100 MjPPc^a^[KbhoS`5EiHO73
+I:gzg<4[k>LL]4@cd`<FmH0
+R2
+R0
+w1632337698
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/controlUnit.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/controlUnit.v
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1632337878.000000
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/controlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/controlUnit.v|
+!i113 1
+R6
+R7
+R8
+ncontrol@unit
+vdataPath
+R9
+!i10b 1
+!s100 J25Y?a02>lDR3]BYnW[Eo0
+I<85D=PkKPnhE[nl6FIH6U2
+R2
+R0
+w1632334439
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/dataPath.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/dataPath.v
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/dataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/dataPath.v|
+!i113 1
+R6
+R7
+R8
+ndata@path
+vMUX3
+R9
+!i10b 1
+!s100 KC3HOEabIJ?K4b?1S?CZD3
+I1m0@Q?Jk9]@c9D]0jn]BO3
+R2
+R0
+w1632336117
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/MUX3.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/MUX3.v
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/MUX3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/MUX3.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@x3
+vregFile
+R9
+!i10b 1
+!s100 MWVi^LKchJ`HB11QR<CfE1
+Ig=N7KDP1ZMbXWGGTkA[iP3
+R2
+R0
+w1632326201
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/regFile.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/regFile.v
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/regFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/regFile.v|
+!i113 1
+R6
+R7
+R8
+nreg@file
+vsimple8BitProcessor
+R9
+!i10b 1
+!s100 5eV2<GLQ^RlQ4Uzk0lGFS2
+I^ZZKOhDTln>INzJC4:IZ81
+R2
+R0
+w1632329411
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/simple8BitProcessor.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/simple8BitProcessor.v
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/simple8BitProcessor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/simple8BitProcessor.v|
+!i113 1
+R6
+R7
+R8
+nsimple8@bit@processor
+vtestProc
+R1
+!i10b 1
+!s100 2ImPkUk;CLd@nn8PWK>7b1
+ILI3A=zjeKC`kK1BG>lTP93
+R2
+R0
+w1632336388
+8C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/testProc.v
+FC:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/testProc.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/testProc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor|C:/Users/mhdgh/OneDrive/Desktop/simple8BitProcessor/testProc.v|
+!i113 1
+R6
+R7
+R8
+ntest@proc

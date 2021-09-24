@@ -1,0 +1,1412 @@
+$comment
+	File created using the following command:
+		vcd file simple8BitProcessor.msim.vcd -direction
+$end
+$date
+	Wed Sep 22 21:27:36 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module simple8BitProcessor_vlg_vec_tst $end
+$var reg 1 ! clock $end
+$var reg 8 " dataIn [7:0] $end
+$var reg 9 # func [8:0] $end
+$var wire 1 $ dataOut [7] $end
+$var wire 1 % dataOut [6] $end
+$var wire 1 & dataOut [5] $end
+$var wire 1 ' dataOut [4] $end
+$var wire 1 ( dataOut [3] $end
+$var wire 1 ) dataOut [2] $end
+$var wire 1 * dataOut [1] $end
+$var wire 1 + dataOut [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 a_aQUARTUS_CREATED_GND_aI_combout $end
+$var wire 1 3 a_aQUARTUS_CREATED_UNVM_a_abusy $end
+$var wire 1 4 a_aQUARTUS_CREATED_ADC1_a_aeoc $end
+$var wire 1 5 dataOut_a0_a_aoutput_o $end
+$var wire 1 6 dataOut_a1_a_aoutput_o $end
+$var wire 1 7 dataOut_a2_a_aoutput_o $end
+$var wire 1 8 dataOut_a3_a_aoutput_o $end
+$var wire 1 9 dataOut_a4_a_aoutput_o $end
+$var wire 1 : dataOut_a5_a_aoutput_o $end
+$var wire 1 ; dataOut_a6_a_aoutput_o $end
+$var wire 1 < dataOut_a7_a_aoutput_o $end
+$var wire 1 = func_a8_a_ainput_o $end
+$var wire 1 > func_a7_a_ainput_o $end
+$var wire 1 ? CU_aDecoder1_a0_combout $end
+$var wire 1 @ dataIn_a0_a_ainput_o $end
+$var wire 1 A clock_ainput_o $end
+$var wire 1 B clock_ainputclkctrl_outclk $end
+$var wire 1 C func_a3_a_ainput_o $end
+$var wire 1 D func_a6_a_ainput_o $end
+$var wire 1 E DP_aRF_arf_a144_combout $end
+$var wire 1 F func_a5_a_ainput_o $end
+$var wire 1 G func_a4_a_ainput_o $end
+$var wire 1 H DP_aRF_arf_a149_combout $end
+$var wire 1 I DP_aRF_arf_a56_q $end
+$var wire 1 J func_a0_a_ainput_o $end
+$var wire 1 K DP_aRF_arf_a145_combout $end
+$var wire 1 L DP_aRF_arf_a40_q $end
+$var wire 1 M func_a1_a_ainput_o $end
+$var wire 1 N DP_aRF_arf_a146_combout $end
+$var wire 1 O DP_aRF_arf_a148_combout $end
+$var wire 1 P DP_aRF_arf_a32_q $end
+$var wire 1 Q DP_aRF_arf_a147_combout $end
+$var wire 1 R DP_aRF_arf_a48_q $end
+$var wire 1 S DP_aRF_arf_a69_combout $end
+$var wire 1 T DP_aRF_arf_a70_combout $end
+$var wire 1 U func_a2_a_ainput_o $end
+$var wire 1 V DP_aRF_arf_a150_combout $end
+$var wire 1 W DP_aRF_arf_a16_q $end
+$var wire 1 X DP_aRF_arf_a151_combout $end
+$var wire 1 Y DP_aRF_arf_a8_q $end
+$var wire 1 Z DP_aRF_arf_a0feeder_combout $end
+$var wire 1 [ DP_aRF_arf_a152_combout $end
+$var wire 1 \ DP_aRF_arf_a0_q $end
+$var wire 1 ] DP_aRF_arf_a71_combout $end
+$var wire 1 ^ DP_aRF_arf_a153_combout $end
+$var wire 1 _ DP_aRF_arf_a24_q $end
+$var wire 1 ` DP_aRF_arf_a72_combout $end
+$var wire 1 a DP_aRF_arf_a73_combout $end
+$var wire 1 b DP_aRF_arf_a66_combout $end
+$var wire 1 c DP_aRF_arf_a67_combout $end
+$var wire 1 d DP_aRF_arf_a64_combout $end
+$var wire 1 e DP_aRF_arf_a65_combout $end
+$var wire 1 f DP_aRF_arf_a68_combout $end
+$var wire 1 g CU_adestSrc_a0_a_a0_combout $end
+$var wire 1 h CU_aDecoder0_a0_combout $end
+$var wire 1 i CU_aDecoder1_a1_combout $end
+$var wire 1 j DP_aAS_aresult_a28_combout $end
+$var wire 1 k DP_aAS_aAdd0_a0_combout $end
+$var wire 1 l DP_aAS_aAdd0_a1_combout $end
+$var wire 1 m CU_aselOp_a0_a_a0_combout $end
+$var wire 1 n CU_aDecoder0_a1_combout $end
+$var wire 1 o DP_aAS_aAdd0_a3_cout $end
+$var wire 1 p DP_aAS_aAdd0_a4_combout $end
+$var wire 1 q DP_amux_aMux7_a0_combout $end
+$var wire 1 r DP_amux_aMux7_a1_combout $end
+$var wire 1 s DP_amux_aMux7_a2_combout $end
+$var wire 1 t DP_amux_aMux7_a3_combout $end
+$var wire 1 u DP_aRF_arf_a25_q $end
+$var wire 1 v DP_aRF_arf_a17_q $end
+$var wire 1 w DP_aRF_arf_a9_q $end
+$var wire 1 x DP_aRF_arf_a1_q $end
+$var wire 1 y DP_aRF_arf_a81_combout $end
+$var wire 1 z DP_aRF_arf_a82_combout $end
+$var wire 1 { DP_aRF_arf_a57_q $end
+$var wire 1 | DP_aRF_arf_a41feeder_combout $end
+$var wire 1 } DP_aRF_arf_a41_q $end
+$var wire 1 ~ DP_aRF_arf_a33_q $end
+$var wire 1 !! DP_aRF_arf_a49_q $end
+$var wire 1 "! DP_aRF_arf_a79_combout $end
+$var wire 1 #! DP_aRF_arf_a80_combout $end
+$var wire 1 $! DP_aRF_arf_a83_combout $end
+$var wire 1 %! DP_aRF_arf_a76_combout $end
+$var wire 1 &! DP_aRF_arf_a77_combout $end
+$var wire 1 '! DP_aRF_arf_a74_combout $end
+$var wire 1 (! DP_aRF_arf_a75_combout $end
+$var wire 1 )! DP_aRF_arf_a78_combout $end
+$var wire 1 *! dataIn_a1_a_ainput_o $end
+$var wire 1 +! DP_aAS_aresult_a29_combout $end
+$var wire 1 ,! DP_aAS_aAdd0_a6_combout $end
+$var wire 1 -! DP_aAS_aAdd0_a5 $end
+$var wire 1 .! DP_aAS_aAdd0_a7_combout $end
+$var wire 1 /! DP_amux_aMux6_a0_combout $end
+$var wire 1 0! DP_amux_aMux6_a1_combout $end
+$var wire 1 1! DP_amux_aMux6_a2_combout $end
+$var wire 1 2! DP_amux_aMux6_a3_combout $end
+$var wire 1 3! dataIn_a2_a_ainput_o $end
+$var wire 1 4! DP_aRF_arf_a26_q $end
+$var wire 1 5! DP_aRF_arf_a18_q $end
+$var wire 1 6! DP_aRF_arf_a2_q $end
+$var wire 1 7! DP_aRF_arf_a10_q $end
+$var wire 1 8! DP_aRF_arf_a91_combout $end
+$var wire 1 9! DP_aRF_arf_a92_combout $end
+$var wire 1 :! DP_aRF_arf_a58feeder_combout $end
+$var wire 1 ;! DP_aRF_arf_a58_q $end
+$var wire 1 <! DP_aRF_arf_a42_q $end
+$var wire 1 =! DP_aRF_arf_a50_q $end
+$var wire 1 >! DP_aRF_arf_a34feeder_combout $end
+$var wire 1 ?! DP_aRF_arf_a34_q $end
+$var wire 1 @! DP_aRF_arf_a89_combout $end
+$var wire 1 A! DP_aRF_arf_a90_combout $end
+$var wire 1 B! DP_aRF_arf_a93_combout $end
+$var wire 1 C! DP_aRF_arf_a86_combout $end
+$var wire 1 D! DP_aRF_arf_a87_combout $end
+$var wire 1 E! DP_aRF_arf_a84_combout $end
+$var wire 1 F! DP_aRF_arf_a85_combout $end
+$var wire 1 G! DP_aRF_arf_a88_combout $end
+$var wire 1 H! DP_aAS_aAdd0_a9_combout $end
+$var wire 1 I! DP_aAS_aAdd0_a8 $end
+$var wire 1 J! DP_aAS_aAdd0_a10_combout $end
+$var wire 1 K! DP_aAS_aresult_a30_combout $end
+$var wire 1 L! DP_amux_aMux5_a0_combout $end
+$var wire 1 M! DP_amux_aMux5_a1_combout $end
+$var wire 1 N! DP_amux_aMux5_a2_combout $end
+$var wire 1 O! DP_amux_aMux5_a3_combout $end
+$var wire 1 P! DP_aRF_arf_a43feeder_combout $end
+$var wire 1 Q! DP_aRF_arf_a43_q $end
+$var wire 1 R! DP_aRF_arf_a59feeder_combout $end
+$var wire 1 S! DP_aRF_arf_a59_q $end
+$var wire 1 T! DP_aRF_arf_a35feeder_combout $end
+$var wire 1 U! DP_aRF_arf_a35_q $end
+$var wire 1 V! DP_aRF_arf_a51feeder_combout $end
+$var wire 1 W! DP_aRF_arf_a51_q $end
+$var wire 1 X! DP_aRF_arf_a94_combout $end
+$var wire 1 Y! DP_aRF_arf_a95_combout $end
+$var wire 1 Z! DP_aRF_arf_a19_q $end
+$var wire 1 [! DP_aRF_arf_a27_q $end
+$var wire 1 \! DP_aRF_arf_a11feeder_combout $end
+$var wire 1 ]! DP_aRF_arf_a11_q $end
+$var wire 1 ^! DP_aRF_arf_a3_q $end
+$var wire 1 _! DP_aRF_arf_a96_combout $end
+$var wire 1 `! DP_aRF_arf_a97_combout $end
+$var wire 1 a! DP_aRF_arf_a98_combout $end
+$var wire 1 b! DP_aRF_arf_a99_combout $end
+$var wire 1 c! DP_aRF_arf_a100_combout $end
+$var wire 1 d! DP_aRF_arf_a101_combout $end
+$var wire 1 e! DP_aRF_arf_a102_combout $end
+$var wire 1 f! DP_aRF_arf_a103_combout $end
+$var wire 1 g! dataIn_a3_a_ainput_o $end
+$var wire 1 h! DP_aAS_aresult_a31_combout $end
+$var wire 1 i! DP_aAS_aAdd0_a12_combout $end
+$var wire 1 j! DP_aAS_aAdd0_a11 $end
+$var wire 1 k! DP_aAS_aAdd0_a13_combout $end
+$var wire 1 l! DP_amux_aMux4_a0_combout $end
+$var wire 1 m! DP_amux_aMux4_a1_combout $end
+$var wire 1 n! DP_amux_aMux4_a2_combout $end
+$var wire 1 o! DP_amux_aMux4_a3_combout $end
+$var wire 1 p! DP_aRF_arf_a28_q $end
+$var wire 1 q! DP_aRF_arf_a20_q $end
+$var wire 1 r! DP_aRF_arf_a4_q $end
+$var wire 1 s! DP_aRF_arf_a12feeder_combout $end
+$var wire 1 t! DP_aRF_arf_a12_q $end
+$var wire 1 u! DP_aRF_arf_a111_combout $end
+$var wire 1 v! DP_aRF_arf_a112_combout $end
+$var wire 1 w! DP_aRF_arf_a60feeder_combout $end
+$var wire 1 x! DP_aRF_arf_a60_q $end
+$var wire 1 y! DP_aRF_arf_a44_q $end
+$var wire 1 z! DP_aRF_arf_a52feeder_combout $end
+$var wire 1 {! DP_aRF_arf_a52_q $end
+$var wire 1 |! DP_aRF_arf_a36feeder_combout $end
+$var wire 1 }! DP_aRF_arf_a36_q $end
+$var wire 1 ~! DP_aRF_arf_a109_combout $end
+$var wire 1 !" DP_aRF_arf_a110_combout $end
+$var wire 1 "" DP_aRF_arf_a113_combout $end
+$var wire 1 #" dataIn_a4_a_ainput_o $end
+$var wire 1 $" DP_aRF_arf_a106_combout $end
+$var wire 1 %" DP_aRF_arf_a107_combout $end
+$var wire 1 &" DP_aRF_arf_a104_combout $end
+$var wire 1 '" DP_aRF_arf_a105_combout $end
+$var wire 1 (" DP_aRF_arf_a108_combout $end
+$var wire 1 )" DP_aAS_aresult_a32_combout $end
+$var wire 1 *" DP_aAS_aAdd0_a15_combout $end
+$var wire 1 +" DP_aAS_aAdd0_a14 $end
+$var wire 1 ," DP_aAS_aAdd0_a16_combout $end
+$var wire 1 -" DP_amux_aMux3_a0_combout $end
+$var wire 1 ." DP_amux_aMux3_a1_combout $end
+$var wire 1 /" DP_amux_aMux3_a2_combout $end
+$var wire 1 0" DP_amux_aMux3_a3_combout $end
+$var wire 1 1" DP_aRF_arf_a21_q $end
+$var wire 1 2" DP_aRF_arf_a29_q $end
+$var wire 1 3" DP_aRF_arf_a13_q $end
+$var wire 1 4" DP_aRF_arf_a5_q $end
+$var wire 1 5" DP_aRF_arf_a121_combout $end
+$var wire 1 6" DP_aRF_arf_a122_combout $end
+$var wire 1 7" DP_aRF_arf_a61_q $end
+$var wire 1 8" DP_aRF_arf_a45_q $end
+$var wire 1 9" DP_aRF_arf_a37feeder_combout $end
+$var wire 1 :" DP_aRF_arf_a37_q $end
+$var wire 1 ;" DP_aRF_arf_a53_q $end
+$var wire 1 <" DP_aRF_arf_a119_combout $end
+$var wire 1 =" DP_aRF_arf_a120_combout $end
+$var wire 1 >" DP_aRF_arf_a123_combout $end
+$var wire 1 ?" DP_aRF_arf_a114_combout $end
+$var wire 1 @" DP_aRF_arf_a115_combout $end
+$var wire 1 A" DP_aRF_arf_a116_combout $end
+$var wire 1 B" DP_aRF_arf_a117_combout $end
+$var wire 1 C" DP_aRF_arf_a118_combout $end
+$var wire 1 D" dataIn_a5_a_ainput_o $end
+$var wire 1 E" DP_aAS_aAdd0_a18_combout $end
+$var wire 1 F" DP_aAS_aAdd0_a17 $end
+$var wire 1 G" DP_aAS_aAdd0_a19_combout $end
+$var wire 1 H" DP_aAS_aresult_a33_combout $end
+$var wire 1 I" DP_amux_aMux2_a0_combout $end
+$var wire 1 J" DP_amux_aMux2_a1_combout $end
+$var wire 1 K" DP_amux_aMux2_a2_combout $end
+$var wire 1 L" DP_amux_aMux2_a3_combout $end
+$var wire 1 M" dataIn_a6_a_ainput_o $end
+$var wire 1 N" DP_aRF_arf_a22feeder_combout $end
+$var wire 1 O" DP_aRF_arf_a22_q $end
+$var wire 1 P" DP_aRF_arf_a6feeder_combout $end
+$var wire 1 Q" DP_aRF_arf_a6_q $end
+$var wire 1 R" DP_aRF_arf_a14feeder_combout $end
+$var wire 1 S" DP_aRF_arf_a14_q $end
+$var wire 1 T" DP_aRF_arf_a131_combout $end
+$var wire 1 U" DP_aRF_arf_a30_q $end
+$var wire 1 V" DP_aRF_arf_a132_combout $end
+$var wire 1 W" DP_aRF_arf_a62_q $end
+$var wire 1 X" DP_aRF_arf_a38feeder_combout $end
+$var wire 1 Y" DP_aRF_arf_a38_q $end
+$var wire 1 Z" DP_aRF_arf_a54feeder_combout $end
+$var wire 1 [" DP_aRF_arf_a54_q $end
+$var wire 1 \" DP_aRF_arf_a129_combout $end
+$var wire 1 ]" DP_aRF_arf_a46_q $end
+$var wire 1 ^" DP_aRF_arf_a130_combout $end
+$var wire 1 _" DP_aRF_arf_a133_combout $end
+$var wire 1 `" DP_aRF_arf_a124_combout $end
+$var wire 1 a" DP_aRF_arf_a125_combout $end
+$var wire 1 b" DP_aRF_arf_a126_combout $end
+$var wire 1 c" DP_aRF_arf_a127_combout $end
+$var wire 1 d" DP_aRF_arf_a128_combout $end
+$var wire 1 e" DP_aAS_aresult_a34_combout $end
+$var wire 1 f" DP_aAS_aAdd0_a21_combout $end
+$var wire 1 g" DP_aAS_aAdd0_a20 $end
+$var wire 1 h" DP_aAS_aAdd0_a22_combout $end
+$var wire 1 i" DP_amux_aMux1_a0_combout $end
+$var wire 1 j" DP_amux_aMux1_a1_combout $end
+$var wire 1 k" DP_amux_aMux1_a2_combout $end
+$var wire 1 l" DP_amux_aMux1_a3_combout $end
+$var wire 1 m" DP_aRF_arf_a23_q $end
+$var wire 1 n" DP_aRF_arf_a31_q $end
+$var wire 1 o" DP_aRF_arf_a7feeder_combout $end
+$var wire 1 p" DP_aRF_arf_a7_q $end
+$var wire 1 q" DP_aRF_arf_a15feeder_combout $end
+$var wire 1 r" DP_aRF_arf_a15_q $end
+$var wire 1 s" DP_aRF_arf_a136_combout $end
+$var wire 1 t" DP_aRF_arf_a137_combout $end
+$var wire 1 u" DP_aRF_arf_a63_q $end
+$var wire 1 v" DP_aRF_arf_a47feeder_combout $end
+$var wire 1 w" DP_aRF_arf_a47_q $end
+$var wire 1 x" DP_aRF_arf_a39_q $end
+$var wire 1 y" DP_aRF_arf_a55feeder_combout $end
+$var wire 1 z" DP_aRF_arf_a55_q $end
+$var wire 1 {" DP_aRF_arf_a134_combout $end
+$var wire 1 |" DP_aRF_arf_a135_combout $end
+$var wire 1 }" DP_aRF_arf_a138_combout $end
+$var wire 1 ~" DP_aRF_arf_a139_combout $end
+$var wire 1 !# DP_aRF_arf_a140_combout $end
+$var wire 1 "# DP_aRF_arf_a141_combout $end
+$var wire 1 ## DP_aRF_arf_a142_combout $end
+$var wire 1 $# DP_aRF_arf_a143_combout $end
+$var wire 1 %# dataIn_a7_a_ainput_o $end
+$var wire 1 &# DP_amux_aMux0_a0_combout $end
+$var wire 1 '# DP_aAS_aAdd0_a24_combout $end
+$var wire 1 (# DP_aAS_aAdd0_a23 $end
+$var wire 1 )# DP_aAS_aAdd0_a25_combout $end
+$var wire 1 *# DP_amux_aMux0_a1_combout $end
+$var wire 1 +# DP_amux_aMux0_a2_combout $end
+$var wire 1 ,# DP_amux_aMux0_a3_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b0 #
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0,
+1-
+x.
+1/
+10
+11
+02
+z3
+z4
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+1[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+1l
+1m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+1,!
+1-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+1H!
+0I!
+0J!
+0K!
+0L!
+0M!
+0N!
+0O!
+0P!
+0Q!
+0R!
+0S!
+0T!
+0U!
+0V!
+0W!
+0X!
+0Y!
+0Z!
+0[!
+0\!
+0]!
+0^!
+0_!
+0`!
+0a!
+0b!
+0c!
+0d!
+0e!
+0f!
+0g!
+0h!
+1i!
+1j!
+0k!
+0l!
+0m!
+0n!
+0o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+0|!
+0}!
+0~!
+0!"
+0""
+0#"
+0$"
+0%"
+0&"
+0'"
+0("
+0)"
+1*"
+0+"
+0,"
+0-"
+0."
+0/"
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+08"
+09"
+0:"
+0;"
+0<"
+0="
+0>"
+0?"
+0@"
+0A"
+0B"
+0C"
+0D"
+1E"
+1F"
+0G"
+0H"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+0O"
+0P"
+0Q"
+0R"
+0S"
+0T"
+0U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+0^"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+1f"
+0g"
+0h"
+0i"
+0j"
+0k"
+0l"
+0m"
+0n"
+0o"
+0p"
+0q"
+0r"
+0s"
+0t"
+0u"
+0v"
+0w"
+0x"
+0y"
+0z"
+0{"
+0|"
+0}"
+0~"
+0!#
+0"#
+0##
+0$#
+0%#
+1&#
+1'#
+1(#
+0)#
+0*#
+0+#
+0,#
+$end
+#20000
+b10000000 "
+b11000000 "
+b11100000 "
+b11110000 "
+b11111000 "
+b11111100 "
+b11111110 "
+b11111111 "
+1%#
+1M"
+1D"
+1#"
+1g!
+13!
+1*!
+1@
+1+#
+1K"
+1n!
+11!
+1l"
+10"
+1O!
+1t
+15
+17
+19
+1;
+1%
+1'
+1)
+1+
+1,#
+1L"
+1o!
+12!
+1Z"
+1X"
+1R"
+1P"
+1N"
+1|!
+1z!
+1w!
+1s!
+1>!
+1:!
+1Z
+16
+18
+1:
+1<
+1$
+1&
+1(
+1*
+1y"
+1v"
+1q"
+1o"
+19"
+1\!
+1V!
+1T!
+1R!
+1P!
+1|
+#30000
+1!
+1A
+1B
+1p"
+1Q"
+14"
+1r!
+1^!
+16!
+1x
+1\
+1"#
+1s"
+1b"
+1T"
+1A"
+15"
+1$"
+1u!
+1d!
+1_!
+1C!
+18!
+1%!
+1y
+1b
+1]
+1##
+1t"
+1c"
+1V"
+1B"
+16"
+1%"
+1v!
+1e!
+1`!
+1D!
+19!
+1&!
+1z
+1c
+1`
+1$#
+1}"
+1e"
+1d"
+1_"
+1H"
+1C"
+1>"
+1)"
+1("
+1""
+1f!
+1h!
+1a!
+1K!
+1G!
+1B!
+1+!
+1)!
+1$!
+1j
+1f
+0l
+1a
+0'#
+1)#
+1h"
+0f"
+0e"
+1G"
+0E"
+1,"
+0*"
+0)"
+0i!
+1k!
+1J!
+0K!
+0H!
+1.!
+0,!
+0-!
+0)#
+1*#
+1i"
+0(#
+0h"
+1I"
+1g"
+0G"
+1-"
+0F"
+0,"
+1+"
+0k!
+1l!
+1L!
+0j!
+0J!
+1/!
+1I!
+0*#
+1j"
+1)#
+0i"
+1J"
+1h"
+0I"
+1."
+1G"
+0-"
+1,"
+0l!
+1m!
+1M!
+1k!
+0L!
+10!
+1J!
+1*#
+0j"
+1i"
+0J"
+1I"
+0."
+1-"
+0m!
+1l!
+0M!
+1L!
+1j"
+1J"
+1."
+1m!
+1M!
+#50000
+0!
+0A
+0B
+#60000
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0%#
+0M"
+0D"
+0#"
+0g!
+03!
+0*!
+0@
+0+#
+0K"
+0n!
+01!
+0l"
+00"
+0O!
+0t
+05
+07
+09
+0;
+0%
+0'
+0)
+0+
+0,#
+0L"
+0o!
+02!
+0Z"
+0X"
+0R"
+0P"
+0N"
+0|!
+0z!
+0w!
+0s!
+0>!
+0:!
+0Z
+06
+08
+0:
+0<
+0$
+0&
+0(
+0*
+0y"
+0v"
+0q"
+0o"
+09"
+0\!
+0V!
+0T!
+0R!
+0P!
+0|
+#90000
+b10000000 #
+b10000001 #
+1>
+1J
+1?
+0"#
+0T"
+05"
+0u!
+0d!
+08!
+0y
+0]
+1+#
+1k"
+1K"
+1/"
+1n!
+1N!
+11!
+0##
+0V"
+06"
+0v!
+0e!
+09!
+0z
+0`
+0$#
+0_"
+0>"
+0""
+0f!
+0B!
+0$!
+1l
+0a
+1,#
+1l"
+1L"
+10"
+1o!
+1O!
+12!
+16
+17
+18
+19
+1:
+1;
+1<
+1'#
+1f"
+1e"
+1E"
+1*"
+1)"
+1i!
+1K!
+1H!
+1,!
+1-!
+1p
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1y"
+1v"
+1q"
+1o"
+1Z"
+1X"
+1R"
+1P"
+1N"
+19"
+1|!
+1z!
+1w!
+1s!
+1\!
+1V!
+1T!
+1R!
+1P!
+1>!
+1:!
+1|
+0)#
+0h"
+0G"
+0,"
+0k!
+0J!
+0I!
+1q
+0*#
+0i"
+0I"
+0-"
+0l!
+0L!
+1j!
+1J!
+1r
+0+#
+0j"
+0J"
+0."
+0m!
+0M!
+0+"
+1k!
+1L!
+1s
+0k"
+0K"
+0/"
+0n!
+0N!
+1F"
+1,"
+1l!
+1M!
+0,#
+1t
+15
+0<
+0g"
+1G"
+1-"
+1m!
+1N!
+0$
+1+
+0l"
+0L"
+00"
+0o!
+0O!
+0y"
+0v"
+0q"
+0o"
+1Z
+07
+08
+09
+0:
+0;
+1(#
+1h"
+1I"
+1."
+1n!
+0%
+0&
+0'
+0(
+0)
+1O!
+0Z"
+0X"
+0R"
+0P"
+0N"
+09"
+0|!
+0z!
+0w!
+0s!
+0\!
+0V!
+0T!
+0R!
+0P!
+0>!
+0:!
+17
+1)#
+1i"
+1J"
+1/"
+1)
+1o!
+1>!
+1:!
+18
+1*#
+1j"
+1K"
+1(
+10"
+1\!
+1V!
+1T!
+1R!
+1P!
+19
+1+#
+1k"
+1'
+1L"
+1|!
+1z!
+1w!
+1s!
+1:
+1&
+1,#
+1l"
+19"
+1;
+1<
+1$
+1%
+1y"
+1v"
+1q"
+1o"
+1Z"
+1X"
+1R"
+1P"
+1N"
+#110000
+1!
+1A
+1B
+#120000
+0!
+0A
+0B
+#140000
+b1 #
+b0 #
+0>
+0J
+0?
+1"#
+1T"
+15"
+1u!
+1d!
+18!
+1y
+1]
+0+#
+0k"
+0K"
+0/"
+0n!
+0N!
+01!
+0s
+1##
+1V"
+16"
+1v!
+1e!
+19!
+1z
+1`
+0l"
+00"
+0O!
+0t
+05
+07
+09
+0;
+1$#
+1_"
+1>"
+1""
+1f!
+1B!
+1$!
+0l
+1a
+0%
+0'
+0)
+0+
+0,#
+0L"
+0o!
+02!
+0Z"
+0X"
+0R"
+0P"
+0N"
+0|!
+0z!
+0w!
+0s!
+0>!
+0:!
+0Z
+06
+08
+0:
+0<
+0'#
+0f"
+0e"
+0E"
+0*"
+0)"
+0i!
+0K!
+0H!
+0,!
+0-!
+0p
+0$
+0&
+0(
+0*
+0y"
+0v"
+0q"
+0o"
+09"
+0\!
+0V!
+0T!
+0R!
+0P!
+0|
+0)#
+0(#
+0h"
+1g"
+0G"
+0F"
+0,"
+1+"
+0k!
+0j!
+0J!
+1I!
+0q
+0*#
+1)#
+0i"
+1h"
+0I"
+1G"
+0-"
+1,"
+0l!
+1k!
+0L!
+1J!
+0r
+1*#
+0j"
+1i"
+0J"
+1I"
+0."
+1-"
+0m!
+1l!
+0M!
+1L!
+1j"
+1J"
+1."
+1m!
+1M!
+#160000
+1!
+1A
+1B
+0p"
+0Q"
+04"
+0r!
+0^!
+06!
+0x
+0\
+0"#
+0s"
+0b"
+0T"
+0A"
+05"
+0$"
+0u!
+0d!
+0_!
+0C!
+08!
+0%!
+0y
+0b
+0]
+0##
+0t"
+0c"
+0V"
+0B"
+06"
+0%"
+0v!
+0e!
+0`!
+0D!
+09!
+0&!
+0z
+0c
+0`
+0$#
+0}"
+1e"
+0d"
+0_"
+0C"
+0>"
+1)"
+0("
+0""
+0f!
+0a!
+1K!
+0G!
+0B!
+0)!
+0$!
+0f
+1l
+0a
+1'#
+0)#
+0h"
+1f"
+0e"
+0G"
+0H"
+1E"
+0,"
+1*"
+0)"
+1i!
+0h!
+0k!
+0J!
+0K!
+1H!
+0.!
+1,!
+0+!
+1-!
+0j
+1)#
+0*#
+0i"
+1(#
+1h"
+0I"
+0g"
+1G"
+0-"
+1F"
+1,"
+0+"
+1k!
+0l!
+0L!
+1j!
+1J!
+0/!
+0I!
+1*#
+0j"
+0)#
+1i"
+0J"
+0h"
+1I"
+0."
+0G"
+1-"
+0,"
+1l!
+0m!
+0M!
+0k!
+1L!
+00!
+0J!
+0*#
+1j"
+0i"
+1J"
+0I"
+1."
+0-"
+1m!
+0l!
+1M!
+0L!
+0j"
+0J"
+0."
+0m!
+0M!
+#180000
+0!
+0A
+0B
+#1000000

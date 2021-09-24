@@ -1,0 +1,14 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/simple8BitProcessor.v}
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/regFile.v}
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/MUX3.v}
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/dataPath.v}
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/controlUnit.v}
+vlog -vlog01compat -work work +incdir+E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04\ Digital\ Design/Quartus/simple8BitProcessor {E:/KAU/ECE/Courses/Semesters/Spring2020/EE460/Lectures/04 Digital Design/Quartus/simple8BitProcessor/ALU.v}
+
